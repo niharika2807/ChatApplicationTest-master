@@ -23,7 +23,7 @@ public class HomePageTest {
 		
 		driver = new ChromeDriver();
 		
-		driver.get("http://13.218.201.82:8088");
+		driver.get("http://54.158.67.236:8088");
 		driver.manage().window().maximize();
 		
 		String Header = driver.findElement(By.tagName("h1")).getText();
